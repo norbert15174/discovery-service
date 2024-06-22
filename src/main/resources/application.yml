@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-service
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  environment: prod
+  server:
+    renewal-percent-threshold: 0.33
+server:
+  port: 8761
